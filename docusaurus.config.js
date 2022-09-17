@@ -46,16 +46,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        logo: {
-          alt: 'subhanahmed.dev Logo',
-          src: 'img/logo.png',
-        },
+        title: 'subhanahmed.dev',
         items: [
-          { to: '/blog', label: 'Blog', position: 'right' },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/subhanahmed047',
-            label: 'GitHub',
             position: 'right',
+            'aria-label': 'GitHub repository',
+            className: 'header-github-link',
+          },
+          {
+            href: 'https://www.linkedin.com/in/subhanahmed/',
+            position: 'right',
+            'aria-label': 'Linkedin profile',
+            className: 'header-linkedin-link',
+          },
+          {
+            href: 'https://stackoverflow.com/users/4284332/subhan',
+            position: 'right',
+            'aria-label': 'Stack Overflow profile',
+            className: 'header-stackoverflow-link',
           },
         ],
       },
