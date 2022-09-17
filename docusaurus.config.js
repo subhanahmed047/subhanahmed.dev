@@ -46,11 +46,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'subhanahmed.dev',
-        // logo: {
-        //   alt: 'subhanahmed.dev Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'subhanahmed.dev Logo',
+          src: 'img/logo.png',
+        },
         items: [
           { to: '/blog', label: 'Blog', position: 'right' },
           {
